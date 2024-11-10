@@ -12,8 +12,13 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        poppins: "var(--font-poppins)",
+        inter: "var(--font-inter)",
+      },
     },
   },
   plugins: [],
 };
+
 export default config;
