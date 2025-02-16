@@ -6,18 +6,18 @@
   box-sizing: border-box;
 }
 
-html {
-  font-family: var(--font-inter);
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-poppins);
-}
-
 .keyboard-key {
   @apply bg-slate-100 text-slate-800;
 }
 
 body {
   margin: 0;
+}
+
+.inter {
+  @apply font-inter;
+}
+
+.poppins {
+  @apply font-poppins;
 }

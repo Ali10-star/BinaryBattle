@@ -7,11 +7,11 @@ const Navbar = async () => {
 
   return (
     <nav className="flex justify-start md:justify-around items-center py-5">
-      <div className="flex items-center gap-2 ms-4 md:ms-0">
+      <div className="flex items-center gap-2 md:ms-0 ms-4">
         <Text color={theme.accentColor}>
           <LoaderPinwheel />
         </Text>
-        <Heading className="font-poppins font-semibold !text-[1.5rem]">
+        <Heading className="font-semibold !text-[1.5rem]">
           Binary Battle
         </Heading>
       </div>
@@ -26,8 +26,8 @@ const Navbar = async () => {
 const ThemeToggle = () => {
   return (
     <div className='flex items-center gap-2'>
-      <span className='shadow-sm px-2 border rounded-lg font-normal font-poppins keyboard-key'>T</span>
-      <span className='font-inter font-light text-gray-500 text-sm'>Theme Options</span>
+      <span className='shadow-sm px-2 border rounded-lg font-normal keyboard-key'>T</span>
+      <span className='font-light text-gray-500 text-sm'>Theme Options</span>
     </div>
   )
 }

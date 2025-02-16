@@ -35,8 +35,8 @@ export default async function RootLayout({
   const theme = await getThemeFromCookies();
 
   return (
-    <html lang="en" className={`${inter.variable} ${poppins.variable} antialiased`} suppressHydrationWarning>
-        <body className="font-inter">
+    <html lang="en" suppressHydrationWarning>
+        <body className={`${inter.variable} ${poppins.variable} antialiased`}>
           <Theme {...theme}>
             <Navbar />
             {children}
